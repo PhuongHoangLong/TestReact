@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        lato: ['Lato', 'Poppins,sans-serif']
       }
     },
     container: {
@@ -18,8 +19,18 @@ module.exports = {
       },
 
     },
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.1em',
+      md: '.5rem',
+      lg: '1rem'
+    },
     screens: {
-      s: '350px',
       xs: '480px',
       sm: '640px',
       md: '768px',
